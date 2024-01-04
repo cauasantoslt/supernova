@@ -1,4 +1,8 @@
-body,
+body {
+  margin: 0px;
+  padding: 2rem 0px 0px 0px ; /* Adiciona um padding-top de 70px */
+}
+
 ul {
   margin: 0px;
   padding: 0px;
@@ -25,27 +29,28 @@ a:hover {
   height: 70px;
   left: 2rem;
   right: 2rem;
-  padding: 1rem;
+  padding: 3rem;
   display: flex;
   align-items: center;
   justify-content: space-between;
   background: #e7e7e7;
-  margin: 2rem 0;
   border-radius: 5px;
-
+  margin-top: 0.8rem;
+  
 }
 
 #menu {
   display: flex;
   list-style: none;
-  gap: 0.5rem;
+  gap: 1rem;
   margin-top: -5px;
-  
 }
 
 #menu a {
   display: block;
   padding: 0.5rem;
+  font-size: 18px;
+  margin-top: 0.5rem;
 }
 
 #btn-mobile {
@@ -69,14 +74,16 @@ a:hover {
     overflow-y: hidden;
   }
   #nav.active #menu {
-    height: calc(100vh - 70px);
+    height: calc(43vh - 70px);
     visibility: visible;
     overflow-y: auto;
+    border-radius: 5px;
   }
   #menu a {
-    padding: 1rem 0;
-    margin: 0 1rem;
+    padding: 1rem ;
+    margin: .5rem 1rem 0 1rem ;
     border-bottom: 2px solid rgba(0, 0, 0, 0.05);
+    border-radius: 6px;
   }
   #btn-mobile {
     display: flex;
@@ -114,3 +121,12 @@ a:hover {
   }
 }
 /*----------------------------------------------------------------------------*/
+
+.box0{
+  padding: 4rem 2rem 2rem 2rem;
+  background-color: rgb(252, 255, 255);
+  position: fixed;
+  width: 100%;
+  margin: -5rem;
+
+}
