@@ -42,7 +42,7 @@ a {
   height: 70px;
   left: 2rem;
   right: 2rem;
-  padding: 3rem;
+  padding: 2rem;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -78,6 +78,10 @@ a {
 
   .desktop{
     display:block;
+  }
+
+  .header{
+    padding: 2rem 1rem;
   }
 }
 
@@ -244,7 +248,8 @@ a {
 
 .footer-list li {
   padding: .5rem;
-  text-align: center;
+  text-align:start;
+  margin-left: 5rem;
 }
 
 .text-end{
@@ -271,6 +276,6 @@ a {
 
 /*----------------------------------------------------------------------------*/
 
-.box{
+.section1{
   margin: 9rem 2rem ;
 }
