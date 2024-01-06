@@ -4,10 +4,6 @@ body {
   background: var(--bg-color);
 }
 
-main{
-
-}
-
 :root{
   --bg-color:#e7e7e1 ;
   --primary-color:#b9b9b9;
@@ -43,14 +39,22 @@ a {
   left: 2rem;
   right: 2rem;
   padding: 2rem;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+  display:flex;
+  align-items:center;
+  justify-content:space-around;
+  gap: 10rem;
   background: var(--primary-color);
   border-radius: 6px;
   margin-top: 0.8rem;
   z-index: 1001;
   
+}
+
+#header img{
+  height:100%;
+  width:200%;
+  margin: 0;
+  padding: 0;
 }
 
 .mobile{
@@ -59,6 +63,8 @@ a {
   font-family: 'Rubik' , sans-serif;
   font-weight: 1000;
   display: block;
+  
+  
 
 }
 
@@ -68,20 +74,31 @@ a {
   font-family: 'Rubik' , sans-serif;
   font-weight: 1000;
   display: none;
+  padding-left: -1rem;
   
 }
 
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 540px) {
   .mobile{
     display:none;
   }
 
   .desktop{
     display:block;
+    padding-right: 5rem;
   }
 
   .header{
     padding: 2rem 1rem;
+  }
+
+  #header{
+    justify-content: space-between;
+  }
+
+  #header img{
+    height: 90%;
+    width: 100px;
   }
 }
 
@@ -197,13 +214,19 @@ a {
 }
 
 .footer a:hover{
-  background: rgba(0, 0, 0, 0.05);
+  background: rgba(0, 0, 0, 0);
 }
 
 .footer-content{
   display: grid;
   grid-template-columns: repeat(3,1fr);
   padding: 1rem 1rem 0 1rem;
+}
+
+.footer-content img{
+  height: 50%;
+  width: 100px;
+  
 }
 
 .logoname{
