@@ -456,13 +456,14 @@ a {
 }
 
 .projects {
-  margin: 2rem 0;
+  margin-bottom: 1rem;
 }
 
 .projects li {
   list-style: none;
   background: var(--terciary-color);
   border-radius: 6px;
+  margin-bottom: 2rem;
 }
 
 .album {
@@ -479,10 +480,9 @@ a {
   color: var(--font-white);
   margin: 1rem;
   font-family: 'Roboto', sans-serif;
-  font-size: 26px;
+  font-size: 22px;
   font-weight: 600;
 
-  border: 1px solid;
 }
 
 .album img {
@@ -493,12 +493,54 @@ a {
 }
 
 .description p {
-  margin: 1rem;
   text-align: justify;
   font-family: 'Roboto', sans-serif;
   font-size: 18px;
   font-weight: 500;
   color: var(--font-white);
-  margin-bottom: 2rem;
   margin: 0 2rem;
+  padding-top: 1rem;
+  padding-bottom: 2rem;
+}
+
+#predios{
+  background-image: url(./assets/Dospredios.jpg);
+  background-size: 110%;
+  background-repeat: no-repeat;
+}
+
+#deluxe{
+  background-image: url(./assets/Deluxe.jpg);
+  background-size: 110%;
+  background-repeat: no-repeat;
+}
+
+#deluxe h1{
+ color: #f0e9e9;
+}
+
+#inocente{
+  background-image: url(./assets/Inocente.jpg);
+  background-size: 110%;
+  background-repeat: no-repeat;
+}
+
+#resumo{
+  background-image: url(./assets/Resumo.jpg);
+  background-size: 110%;
+  background-repeat: no-repeat;
+}
+
+#beat{
+  background-image: url(./assets/Beat.jpg);
+  background-size: 110%;
+  background-repeat: no-repeat;
+}
+
+@media screen and (min-width:600px) {
+  .projects ul{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 2rem;
+  }
 }
