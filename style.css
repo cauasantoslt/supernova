@@ -1,17 +1,17 @@
 body {
   margin: 0px;
-  padding: 2rem 0px 0px 0px ; /* Adiciona um padding-top de 70px */
+  padding: 2rem 0px 0px 0px; /* Adiciona um padding-top de 70px */
   background: var(--bg-color);
 }
 
-:root{
-  --bg-color:#d4d4d4;
-  --primary-color:#b9b9b9;
-  --secundary-color:#b4b2b2d5;
-  --terciary-color:#252727;
-  --quaternay-color:#0c0c0c;
-  --font-color:#0D0F0F; 
-  --font-white:#cec4c4;
+:root {
+  --bg-color: #d4d4d4;
+  --primary-color: #b9b9b9;
+  --secundary-color: #b4b2b2d5;
+  --terciary-color: #252727;
+  --quaternay-color: #0c0c0c;
+  --font-color: #0d0f0f;
+  --font-white: #cec4c4;
 }
 
 ul {
@@ -29,32 +29,32 @@ a {
   background: rgba(0, 0, 0, 0.05);
 }
 
-#logo {
+#logo{
   font-size: 1.5rem;
   font-weight: bold;
 }
 
-#header {
+#header{
   box-sizing: border-box;
   position: fixed;
   height: 70px;
   left: 1.5rem;
   right: 1.5rem;
   padding: 2rem;
-  display:flex;
-  align-items:center;
-  justify-content:space-between;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
   background: var(--primary-color);
   border-radius: 6px;
   margin-top: 0;
-  z-index: 1001;
-  
+  z-index:1001;
+
 }
 
-.mobile{
+.mobile {
   color: var(--font-color);
   font-size: 28px;
-  font-family: 'Rubik' , sans-serif;
+  font-family: 'Rubik', sans-serif;
   font-weight: 1000;
   display: block;
 }
@@ -66,7 +66,7 @@ a {
   font-weight: 1000;
   display: none;
   padding-left: -1rem;
-  
+
 }
 
 @media screen and (min-width: 600px) {
@@ -105,7 +105,7 @@ a {
   display: block;
   padding: 0.5rem;
   font-size: 18px;
-  font-family: 'Rubik' , sans-serif;
+  font-family: 'Rubik', sans-serif;
   font-weight: 500;
   margin-top: 0.5rem;
 }
@@ -116,7 +116,7 @@ a {
   border-radius: 10px;
 }
 
-@media  {
+@media {
   #menu {
     display: block;
     position: absolute;
@@ -137,8 +137,8 @@ a {
     border-radius: 5px;
   }
   #menu a {
-    padding: 1rem ;
-    margin: .5rem 1rem 0 1rem ;
+    padding: 1rem;
+    margin: 0.5rem 1rem 0 1rem;
     border-bottom: 2px solid rgba(0, 0, 0, 0.05);
     border-radius: 6px;
   }
@@ -197,77 +197,76 @@ a {
 
 }
 
-.footer h3{
+.footer h3 {
   color: var(--font-color);
   font-size: 16px;
   font-family: 'Rubik' , sans-serif;
   font-weight: 450;
 }
 
-.footer a:hover{
+.footer a:hover {
   background: rgba(0, 0, 0, 0);
 }
 
-.footer-content{
+.footer-content {
   display: grid;
-  grid-template-columns: repeat(3,1fr);
+  grid-template-columns: repeat(3, 1fr);
   padding: 1rem 1rem 0 1rem;
 }
 
-.footer-content img{
+.footer-content img {
   height: 50%;
   width: 100px;
+
+}
+
+.logoname {
+  padding: 0 1rem;
   
 }
 
-.logoname{
-  padding: 0 1rem;
-}
-
-.logoname h3{
+.logoname h3 {
   color: var(--font-color);
   font-size: 16px;
-  font-family: 'Rubik' , sans-serif;
+  font-family: 'Rubik', sans-serif;
   font-weight: 600;
 }
 
-.logoname a{
+.logoname a {
   font-size: 24px;
 }
 
-.social{
+.social {
   padding: 0 1rem;
 }
 
-
-.social a{
+.social a {
   display: block;
   font-size: 16px;
   font-family: 'Rubik', sans-serif;
   font-weight: 400;
   border-radius: 5px;
-  padding: .4rem;
-  margin-bottom: .5rem;
+  padding: 0.4rem;
+  margin-bottom: 0.5rem;
   margin-left: 1rem;
-
 }
 
-.footer-list{
+.footer-list {
   list-style: none;
   font-family: 'Rubik', sans-serif;
   font-size: 16px;
   font-weight: 600;
-  padding: .5rem 0;
+  padding: 0.5rem 0;
 }
 
 .footer-list li {
-  padding: .5rem;
-  text-align:start;
+  padding: 0.5rem;
+  text-align: start;
   margin-left: 5rem;
 }
 
-.text-end{
-  padding: .4rem;
+.text-end {
+  padding: 0.4rem;
   border-radius: 6px 6px 0 0;
   border-top: 3px solid var(--terciary-color);
   background: var(--secundary-color);
@@ -277,167 +276,158 @@ a {
   text-align: center;
 }
 
-@media screen and (min-width:600px) {
-  .footer-content{
-    grid-template-columns: repeat(2,1fr);
-  .social{
-    order: 3;
-    margin-bottom: 1rem;
+@media screen and (max-width: 600px) {
+  .footer-content {
+    grid-template-columns: repeat(2, 1fr);
+    .social {
+      order: 3;
+      margin-bottom: 1rem;
+    }
   }
-  }
-
 }
 
 /*----------------------------------------------------------------------------*/
 
-.section1{
-  margin: 7.5rem 1.5rem 2rem ;
+.section1 {
+  margin: 7.5rem 1.5rem 2rem;
   border-radius: 6px;
   background: var(--primary-color);
   padding: 1.5rem;
 }
 
-
-.text{
+.text {
   background: var(--terciary-color);
   margin: 0;
   padding: 1rem;
   border-radius: 6px;
-  
 }
-.text img{
-  margin-bottom: 2rem;  
+.text img {
+  margin-bottom: 2rem;
   height: 100%;
   width: 100%;
   border-radius: 6px;
 }
 
-#top-image{
+#top-image {
   margin-bottom: 2rem;
 }
 
-.text h1{
-  font-family: "Roboto", sans-serif;
+.text h1 {
+  font-family: 'Roboto', sans-serif;
   font-size: 20px;
   font-weight: 900;
   color: rgb(221, 221, 221);
   margin: 0 1rem;
 }
 
-
-.text p{
+.text p {
   text-align: justify;
   font-weight: 500;
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 18px;
   color: var(--font-white);
-  margin:1rem;
-  
+  margin: 1rem;
 }
 
-@media screen and (min-width:600px) {
-  .text{
+@media screen and (min-width: 600px) {
+  .text {
     display: grid;
-    grid-template-columns: repeat(2,1fr);
+    grid-template-columns: repeat(2, 1fr);
   }
 
-  .text h1{
+  .text h1 {
     font-size: 32px;
     margin: 1rem 3rem;
   }
 
-  .text p{
+  .text p {
     font-size: 20px;
     margin: 1rem 2rem;
   }
 
-  #artistas{
+  #artistas {
     order: 2;
   }
-  
 }
 
-.artists h2{
-  font-family: "Roboto", sans-serif;
+.artists h2 {
+  font-family: 'Roboto', sans-serif;
   font-size: 20px;
   font-weight: 550;
   color: rgb(221, 221, 221);
   margin: 1rem;
 }
 
-.artists{
+.artists {
   background: var(--terciary-color);
   border-radius: 6px;
   margin: 2rem 0;
   padding: 1rem;
 }
 
-.artists-list{
+.artists-list {
   list-style: none;
-
 }
 
-.fotoname{
+.fotoname {
   display: flex;
 }
 
-.img{
-  padding:.8rem;
+.img {
+  padding: 0.8rem;
   margin-right: 1rem;
 }
 
-.artists-list img{
+.artists-list img {
   border: 5px solid var(--font-color);
   border-radius: 50%;
   max-width: 100%;
   max-height: 100%;
 }
 
-.artists-list li{
+.artists-list li {
   display: block;
 }
 
-.fotoname{
+.fotoname {
   display: grid;
-  grid-template-columns: repeat(2,1fr);
+  grid-template-columns: repeat(2, 1fr);
 }
-.info{
+.info {
   border-radius: 6px;
   padding: 1rem;
   background: var(--quaternay-color);
 }
 
-.a{
+.a {
   display: block;
-
 }
 
-.info h1{
-  font-family: "Roboto", sans-serif;
+.info h1 {
+  font-family: 'Roboto', sans-serif;
   font-size: 24px;
   font-weight: 900;
   color: var(--font-white);
-  margin: .5rem;
+  margin: 0.5rem;
   margin-bottom: 2.5rem;
   text-align: center;
-  
 }
 
-.info a{
+.info a {
   display: block;
   font-family: 'Robot', sans-serif;
   font-size: 14px;
   font-weight: 400;
   color: var(--font-white);
-  margin-bottom: .7rem;
+  margin-bottom: 0.7rem;
 }
 
-.artists-list ion-icon{
+.artists-list ion-icon {
   color: white;
   font-size: 16px;
 }
 
-.vignette h1{
+.vignette h1 {
   text-align: center;
   font-family: 'Roboto', sans-serif;
   font-size: 24px;
@@ -445,9 +435,9 @@ a {
   color: var(--font-white);
 }
 
-.vignette p{
+.vignette p {
   margin: 1rem;
-  text-align:justify;
+  text-align: justify;
   font-family: 'Roboto', sans-serif;
   font-size: 18px;
   font-weight: 500;
@@ -455,12 +445,60 @@ a {
   margin-bottom: 2rem;
 }
 
-@media screen and (min-width:600px) {
-  .artists ul{
+@media screen and (min-width: 600px) {
+  .artists ul {
     display: grid;
-    grid-template-columns: repeat(3,3fr);
+    grid-template-columns: repeat(3, 3fr);
   }
-  .artists h2{
+  .artists h2 {
     padding-bottom: 2rem;
   }
+}
+
+.projects {
+  margin: 2rem 0;
+}
+
+.projects li {
+  list-style: none;
+  background: var(--terciary-color);
+  border-radius: 6px;
+}
+
+.album {
+  background-image: url(./assets/Beat.jpg);
+  border-radius: 6px 6px 0 0;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin: 0;
+  height: 170px;
+  align-items: flex-end;
+}
+
+.album h1 {
+  color: var(--font-white);
+  margin: 1rem;
+  font-family: 'Roboto', sans-serif;
+  font-size: 26px;
+  font-weight: 600;
+
+  border: 1px solid;
+}
+
+.album img {
+  margin: auto 1rem auto auto;
+  height: 150px;
+  width: auto;
+  border-radius: 6px;
+}
+
+.description p {
+  margin: 1rem;
+  text-align: justify;
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  color: var(--font-white);
+  margin-bottom: 2rem;
+  margin: 0 2rem;
 }
