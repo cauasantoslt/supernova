@@ -116,7 +116,7 @@ a {
   border-radius: 10px;
 }
 
-@media {
+@media screen{
   #menu {
     display: block;
     position: absolute;
