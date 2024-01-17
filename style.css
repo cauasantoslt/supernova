@@ -8,7 +8,7 @@ body {
   --bg-color: #d4d4d4;
   --primary-color: #b9b9b9;
   --secundary-color: #b4b2b2d5;
-  --terciary-color: #252727;
+  --terciary-color: #252727c9;
   --quaternay-color: #0c0c0c;
   --font-color: #0d0f0f;
   --font-white: #cec4c4;
@@ -449,9 +449,10 @@ a {
   .artists ul {
     display: grid;
     grid-template-columns: repeat(3, 3fr);
+    gap:2rem;
   }
   .artists h2 {
-    padding-bottom: 2rem;
+    padding-bottom:1.5rem;
   }
 }
 
@@ -477,11 +478,11 @@ a {
 }
 
 .album h1 {
-  color: var(--font-white);
+  color: #ebe4e4;
   margin: 1rem;
   font-family: 'Roboto', sans-serif;
   font-size: 22px;
-  font-weight: 600;
+  font-weight: 700;
 
 }
 
@@ -495,11 +496,12 @@ a {
 .description p {
   text-align: justify;
   font-family: 'Roboto', sans-serif;
+  font-weight: 500;
   font-size: 18px;
   font-weight: 500;
-  color: var(--font-white);
+  color: #dbdbdb;
   margin: 0 2rem;
-  padding-top: 1rem;
+  padding-top: 2rem;
   padding-bottom: 2rem;
 }
 
@@ -509,14 +511,26 @@ a {
   background-repeat: no-repeat;
 }
 
+#um {
+  background: linear-gradient(170deg, #52564ad5, rgba(255, 255, 255, 0) 40%),
+              linear-gradient(180deg, rgba(37, 109, 109, 0.8), rgba(197, 197, 197, 0) 20%),
+              linear-gradient(360deg,#5050501c 60%,#6d6d6dd5 100%);
+}
+
 #deluxe{
   background-image: url(./assets/Deluxe.jpg);
-  background-size: 110%;
+  background-size: 101%;
   background-repeat: no-repeat;
 }
 
+#dois {
+  background: linear-gradient(175deg, #ffddb1b9, rgba(255, 255, 255, 0) 30%),
+              linear-gradient(180deg,  #f1ae6ad0, rgba(197, 197, 197, 0) 30%),
+              linear-gradient(360deg,#5050501c 40%,#6d6d6daf 80%);
+}
+
 #deluxe h1{
- color: #f0e9e9;
+ color: #e7e7e7;
 }
 
 #inocente{
@@ -525,16 +539,34 @@ a {
   background-repeat: no-repeat;
 }
 
+#tres {
+  background: linear-gradient(180deg, #e3a069de, rgba(255, 255, 255, 0) 40%),
+              linear-gradient(180deg, #e3a069da, rgba(197, 197, 197, 0) 20%),
+              linear-gradient(360deg,#5050501c 40%,#6d6d6dd5 90%);
+}
+
 #resumo{
   background-image: url(./assets/Resumo.jpg);
   background-size: 110%;
   background-repeat: no-repeat;
 }
 
+#quatro {
+  background: linear-gradient(175deg, #ee0606cc, rgba(255, 255, 255, 0) 30%),
+              linear-gradient(180deg, #f5df8f, rgba(197, 197, 197, 0) 30%),
+              linear-gradient(360deg,#5050501c 40%,#5e5e5ede 90%);
+}
+
 #beat{
   background-image: url(./assets/Beat.jpg);
   background-size: 110%;
   background-repeat: no-repeat;
+}
+
+#cinco {
+  background: linear-gradient(175deg, #3e6358d8, rgba(255, 255, 255, 0) 30%),
+              linear-gradient(180deg, #85825bd8, rgba(197, 197, 197, 0) 30%),
+              linear-gradient(360deg,#5050501c 40%,#5e5e5ede 90%);
 }
 
 @media screen and (min-width:600px) {
