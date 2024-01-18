@@ -289,7 +289,7 @@ a {
 /*----------------------------------------------------------------------------*/
 
 .section1 {
-  margin: 7.5rem 1.5rem 2rem;
+  margin: 7rem 1.5rem 1rem;
   border-radius: 6px;
   background: var(--primary-color);
   padding:.5rem;
@@ -519,7 +519,7 @@ a {
 
 #deluxe{
   background-image: url(./assets/Deluxe.jpg);
-  background-size: 101%;
+  background-size: 110%;
   background-repeat: no-repeat;
 }
 
